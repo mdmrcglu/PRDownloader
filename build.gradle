@@ -39,6 +39,10 @@ allprojects {
     }
 }
 
+plugins {
+    id 'maven-publish'
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
