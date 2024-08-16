@@ -25,7 +25,7 @@ buildscript {
         maven { url 'https://maven.google.com' }
         maven { url 'https://jitpack.io' } 
     maven {
-        url 'https://repository.axelor.com/nexus/service/rest/repository/browse/maven-public/'
+        url 'https://repository.axelor.com/nexus/repository/browse/maven-public/'
     }
     }
     dependencies {
